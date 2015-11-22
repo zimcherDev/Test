@@ -14,6 +14,7 @@ class ProductsController < ApplicationController
 
   # GET /products/new
   def new
+    1+1
     @product = Product.new
   end
 
